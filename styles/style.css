@@ -1,5 +1,5 @@
 .body {
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     background-color: white;
     width: 1100px;
     height: 3028px;
@@ -117,6 +117,7 @@ align-items: center;
     align-items: center;
     width: 100%;
     align-items: end;
+    margin-top: 135px;
 }
 
 .cover__description-text {
@@ -126,26 +127,28 @@ align-items: center;
     font-size: 22px;
     word-spacing: 1.1em;
     margin-left: 78px;
-    line-height: 127%;
+    line-height: 120%;
 
 }
 
 .bet-button {
     width: 256px;
     height: 51px;
-    border-width: 1px; 
+    border-width: 1px;
     border-color: white;
     font-size: 22px;
     font-weight: 500;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
+    margin-top: 105px;
+    margin-right: 50px;
 
 }
 
 .lots {
-    margin: 179px 24px 0 24px;
+    margin: 243px 24px 0 24px;
     position: relative;
 }
 
@@ -196,7 +199,7 @@ align-items: center;
 }
 
 .card__text-film {
-    padding: 238px 40px 48px;
+    padding: 240px 40px 48px;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -246,7 +249,7 @@ align-items: center;
 
 
 .about {
-    padding: 181px 72px 0 47px;
+    padding: 181px 72px 0 25px;
     display: grid;
     gap: 122px;
     grid-template-columns: 236px 693px;
@@ -256,7 +259,7 @@ align-items: center;
     display: flex;
     margin-left: 45px;
     padding-top: 35px;
-    padding-left: 47px;
+    padding-left: 50px;
     width: 240px;
     height: 240px;
     background-color: black;
@@ -277,8 +280,9 @@ align-items: center;
 .about__title {
     font-size: 40px;
     font-weight: 700;
-    line-height: 92px;
+    line-height: 50px;
     text-transform: uppercase;
+    
 }
 
 .about__text {
@@ -289,12 +293,16 @@ align-items: center;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
+    margin-top: 101px;
 }
 
-.footer {
+.footer_content-section{
     display: flex;
     justify-content: space-between;
-    padding: 180px 50px 80px;
+    padding-left: 26.52px;
+    font-size: 18px;
+    margin-top: 1800px;
+    
   }
   
   .footer__social-icon {
@@ -320,4 +328,13 @@ align-items: center;
     display: flex;
     gap: 48px;
     list-style: none;
+  }
+  
+  .address {
+    display: block;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 18px;
+    
   }
