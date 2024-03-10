@@ -69,44 +69,73 @@ align-items: center;
 .cover__title {
     position: relative;
     z-index: 1;
-    width: 1000px;
-    height: 355px;
-    padding: 165px 50px 237px 50px;
+    padding: 165px 10px 51px 50px;
     font-size: 100px;
+    color: white;
     text-transform: uppercase;
 }
 
-.aligned-text {
-    width: fit-content;
+.cover__title-ono {
     color: white;
-    text-align: left;
-    letter-spacing: 40px;
 }
 
-.aligned-text_center {
-    margin-top: 10px;
+.letter-spacing-extended-o {
+    letter-spacing: 0.06em;
+}
+
+.letter-spacing-extended-n {
+    letter-spacing: 0.37em;
+}
+
+.cover__title-tebe {
+    color: white;
+}
+
+
+.aligned-text_center-te {
+    margin-top: 9px;
     padding-right: 59px;
-   text-align: center;
-  display: block;
+    text-align: center;
+    display: flex;
     padding-left: 288px;
-    letter-spacing: 23px;
-
+    letter-spacing: 28px;
 
 }
 
-.aligned-text_right {
+.aligned-text_center-be {
+    margin-top: 0px;
+    padding-right: 70px;
+    text-align: center;
+    display: flex;
+    padding-left: 4px;
+    letter-spacing: 60px;
+}
+
+.aligned-text_right-n {
+    padding-right: 11px;
     text-align: right;
-    margin-top: 10px;
-    letter-spacing: 30px;
+    padding-left: 584px;
+    letter-spacing: 28px;
 
 }
 
-.letter-spacing-extended {
-    letter-spacing: 0.6em;
+.letter-spacing-a {
+    letter-spacing: 2px;
+
 }
 
-.no-letter-spacing {
-    letter-spacing: normal;
+.letter-spacing-d {
+    padding-right: 8px;
+    letter-spacing: 28px;
+
+    
+}
+
+.aligned-text_right-o {
+    padding-right: 8px;
+    text-align: right;
+    letter-spacing: 28px;
+
 }
 
 .cover__description {
@@ -114,10 +143,8 @@ align-items: center;
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
-    align-items: end;
-    margin-top: 135px;
+    margin-top: 14px;
 }
 
 .cover__description-text {
@@ -125,8 +152,9 @@ align-items: center;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 22px;
-    word-spacing: 1.1em;
-    margin-left: 78px;
+    word-spacing: 18.6px;
+    margin-left: 29px;
+    margin-top: 130px;
     line-height: 120%;
 
 }
@@ -142,13 +170,14 @@ align-items: center;
     text-transform: uppercase;
     cursor: pointer;
     font-family: Raleway, sans-serif;
-    margin-top: 105px;
-    margin-right: 50px;
+    margin-top: 116px;
+    margin-right: 40px;
+    background-color: rgba(28,28,28,0);
 
 }
 
 .lots {
-    margin: 243px 24px 0 24px;
+    padding: 179px 24px 0 24px;
     position: relative;
 }
 
@@ -243,7 +272,7 @@ align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 24px;
     margin: 30px 0 0 40px;
 }
 
@@ -302,6 +331,7 @@ align-items: center;
     padding-left: 26.52px;
     font-size: 18px;
     margin-top: 1800px;
+    margin-bottom: 50px;
     
   }
   
