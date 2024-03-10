@@ -72,6 +72,7 @@ align-items: center;
     font-size: 100px;
     color: white;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .cover__title-ono {
@@ -158,7 +159,7 @@ align-items: center;
 
 }
 
-.bet-button {
+.button {
     width: 256px;
     height: 51px;
     border-width: 1px;
@@ -366,4 +367,8 @@ align-items: center;
     margin-left: 25px;
     font-size: 18px;
     
+  }
+
+  .h1 {
+    font-weight: 400;
   }
