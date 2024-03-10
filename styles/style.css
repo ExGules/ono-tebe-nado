@@ -41,7 +41,6 @@
 
 .header__address {
     display: block;
-    line-height: 24px;
     text-align: left;
     margin-left: 198px;
     font-size: 18px;
@@ -330,6 +329,7 @@
     display: flex;
     padding-left: 26.52px;
     font-size: 18px;
+    
   }
   
 .footer__social-icon {
