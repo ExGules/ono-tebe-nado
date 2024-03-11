@@ -1,26 +1,17 @@
-.body {
-    font-family: Raleway, sans-serif;
-    background-color: white;
-    height: 3028px;
-}
-
 .header {
-    Width: 1052px;
-    Height: 105px;
     font-weight: 400;
     display: flex;
-    padding: 92px 24px 0px 24px;
+    padding: 92px 24px 96px 24px;
     align-items: center;
+    
 }
 
 .header__menu-list {
     display: flex;
-    justify-content: space-between;
-    padding-top: 44px;
-    margin-top: 56px;
-    padding-left: 26.52px;
+    padding-left: 23px;
     line-height: 1%;
     font-size: 18px;
+    padding-top: 15px;
 }
 
 .header__menu-items {
@@ -30,9 +21,9 @@
 
 .header__logo {
     display: flex;
-    width: 129.11px;
-    height: 104.65px;
-    margin-top: 92px;
+    width: 148px;
+    height: 105px;
+    margin-top: 9px;
 }
 
 .header__logo-image {
@@ -40,11 +31,9 @@
 }
 
 .header__address {
-    display: block;
     text-align: left;
-    margin-left: 198px;
+    margin-left: 194px;
     font-size: 18px;
-    margin-top: 97px;
     line-height: 1.35;
     text-underline-position: under
 }
@@ -58,11 +47,11 @@
     background-image: url(/images/cover.jpg);
     margin-top: 188px;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 1;
 }
 
 .cover__title {
@@ -153,8 +142,8 @@
     font-weight: 400;
     font-size: 22px;
     word-spacing: 18.6px;
-    margin-left: 29px;
-    margin-top: 130px;
+    margin-left: 78px;
+    margin-top: 76px;
     line-height: 120%;
 
 }
@@ -170,8 +159,8 @@
     text-transform: uppercase;
     cursor: pointer;
     font-family: Raleway, sans-serif;
-    margin-top: 116px;
-    margin-right: 40px;
+    margin-top: 62px;
+    margin-right: 50px;
     background-color: rgba(28,28,28,0);
 
 }
@@ -208,7 +197,7 @@
     list-style-type: none;
 }
 
-.card-lot-1 {
+.card-lot-film {
     height: 100%;
     background-image: url(/images/card-lot-01.jpg);
     background-size: cover;
@@ -227,7 +216,7 @@
     color: white;
 }
 
-.card__text-film {
+.card-lot-film >p {
     padding: 240px 40px 48px;
     font-weight: 400;
     font-size: 20px;
@@ -235,7 +224,7 @@
     color: white;
 }
 
-.card-lot-2 {
+.card-lot-book {
     height: 100%;
     background-image: url(/images/card-lot-02.jpg);
     background-size: cover;
@@ -243,7 +232,7 @@
     background-position: center;
 }
 
-.card__text-book {
+.card-lot-book >p {
     padding: 0 40px 48px;
     font-weight: 400;
     font-size: 20px;
@@ -251,7 +240,7 @@
     color: white;
 }
 
-.card-lot-3 {
+.card-lot-yeelow {
     height: 100%;
     background-image: url(/images/card-lot-03.jpg);
     background-size: cover;
@@ -259,7 +248,7 @@
     background-position: center;
 }
 
-.card__text-yeelow {
+.card-lot-yeelow >p {
     padding: 95px 40px 48px;
     font-weight: 400;
     font-size: 20px;
@@ -329,8 +318,7 @@
     display: flex;
     padding-left: 26.52px;
     font-size: 18px;
-    padding: ;
-    
+    margin-bottom: 89px;
   }
   
 .footer__social-icon {
