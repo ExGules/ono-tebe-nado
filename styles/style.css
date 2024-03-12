@@ -3,13 +3,15 @@
     display: flex;
     padding: 92px 24px 96px 24px;
     align-items: center;
-    
-}
+} 
 
+.header__menu {
+    Width: 455px;
+    Height: 45px;
+}
 .header__menu-list {
     display: flex;
     padding-left: 23px;
-    line-height: 1%;
     font-size: 18px;
     padding-top: 15px;
 }
@@ -19,33 +21,45 @@
     list-style: circle;
 }
 
+.header__menu-link {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.header__menu-link_no-bullit {
+    text-decoration: none;
+}
+.header__links-list {
+    display: flex;
+    gap: 32px;
+}
+
 .header__logo {
     display: flex;
     width: 148px;
     height: 105px;
-    margin-top: 9px;
 }
 
 .header__logo-image {
     width: 100%;
 }
 
+
 .header__address {
     text-align: left;
-    margin-left: 194px;
+    margin-left: 185px;
     font-size: 18px;
     line-height: 1.35;
-    text-underline-position: under
+    text-underline-position: under;
+    padding-top: 7px;
 }
 
 .jambotron {
     width: 1100px;
-    height: 2550px;
 }
 
 .cover {
     background-image: url(/images/cover.jpg);
-    margin-top: 188px;
     width: 1100px;
     min-height: 757px;
     background-size: cover;
@@ -98,6 +112,7 @@
     display: flex;
     padding-left: 4px;
     letter-spacing: 60px;
+    
 }
 
 .aligned-text_right-n {
@@ -152,7 +167,7 @@
     width: 256px;
     height: 51px;
     border-width: 1px;
-    border-color: white;
+    border-color: currentColor;
     font-size: 22px;
     font-weight: 500;
     color: white;
@@ -162,7 +177,7 @@
     margin-top: 62px;
     margin-right: 50px;
     background-color: rgba(28,28,28,0);
-
+    border-style: solid;
 }
 
 .lots {
@@ -181,7 +196,6 @@
 .lots__card-list {
     display: grid;
     grid-template-columns: repeat(3, 334px);
-    grid-template-rows: 563px;
     column-gap: 25px;
 }
 
@@ -267,10 +281,10 @@
 
 
 .about {
-    padding: 181px 72px 0 25px;
+    padding: 177px 72px 180px 25px;
     display: grid;
     gap: 122px;
-    grid-template-columns: 236px 693px;
+    grid-template-columns: 236px 703px;
 }
 
 .about__logo {
