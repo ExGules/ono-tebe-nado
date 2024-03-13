@@ -6,9 +6,10 @@
 } 
 
 .header__menu {
-    Width: 455px;
-    Height: 45px;
+    min-Width: 454px;
+    min-Height: 45px;
 }
+
 .header__menu-list {
     display: flex;
     padding-left: 23px;
@@ -17,22 +18,17 @@
 }
 
 .header__menu-items {
-    padding-right: 36px;
+    padding-right: 35px;
     list-style: circle;
 }
 
-.header__menu-link {
-    font-size: 18px;
-    white-space: nowrap;
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+    padding-right: 33px;
+    margin-left: 4px;
 }
 
-.header__menu-link_no-bullit {
-    text-decoration: none;
-}
-.header__links-list {
-    display: flex;
-    gap: 32px;
-}
 
 .header__logo {
     display: flex;
@@ -59,7 +55,7 @@
 }
 
 .cover {
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     width: 1100px;
     min-height: 757px;
     background-size: cover;
@@ -213,7 +209,7 @@
 
 .card-lot-film {
     height: 100%;
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -240,7 +236,7 @@
 
 .card-lot-book {
     height: 100%;
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -256,7 +252,7 @@
 
 .card-lot-yeelow {
     height: 100%;
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,7 +277,7 @@
 
 
 .about {
-    padding: 177px 72px 180px 25px;
+    margin: 180px 25px 176px 25px;
     display: grid;
     gap: 122px;
     grid-template-columns: 236px 703px;
@@ -289,11 +285,11 @@
 
 .about__logo {
     display: flex;
-    margin-left: 45px;
-    padding-top: 33px;
-    padding-left: 50px;
+    margin-left: 47px;
+    padding-top: 32px;
+    padding-left: 46px;
     width: 240px;
-    height: 240px;
+    height: 241px;
     background-color: black;
     border-radius: 50%;
 }
