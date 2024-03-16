@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__links-list-item_no-bullit">
+          <li class="header__link header__link_active">
             главная
           </li>
           <li class="header__menu-items">
@@ -31,37 +31,41 @@
           alt="черный логотип"
        >
       </a>
-      <address class="header__address">
+      <address>
+        <h6 class="header__address">
         <a href="tel:+99995555555"
           >+9 999 555 5555</a>
-        <a>info@sobaka.ge</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263-<br>
           265, Амстердам
         </p>
+        </h6>
       </address>
     </header>
     <main class="jambotron">
-      <section class="cover">
+      <section class="cover content-section">
+        <div class="overlay"></div>
         <h1 class="cover__title">
-            <span class="letter-spacing-extended-o">о</span>
-            <span class="letter-spacing-extended-n">н</span>
-            <span class="no-letter-spacing-extended">o</span>
-            <span class="aligned-text_center-te"
-              >те
-              <span class="aligned-text_center-be">бе</span>
-            </span>
-            <span class="aligned-text_right-n">н</span>
-            <span class="letter-spacing-a">а</span>
-            <span class="letter-spacing-a">д</span>
-            <span class="aligned-text_right-o">о</span>
+          <span class="aligned-text"
+            >о<span class="letter-spacing-extended">но</span></span
+          >
+          <span class="aligned-text aligned-text_center"
+            >те<span class="letter-spacing-extended">бе</span></span
+          >
+          <span class="aligned-text aligned-text_right"
+            ><span class="letter-spacing-extended letter-spacing-n">н</span>ад<span
+              class="remove-spacing"
+              >о</span
+            ></span
+          >
         </h1>
-          <div class="cover__description">
-            <h2 class="cover__description-text">
-              Аукцион вещей, в которые никто не верил
-            </h2>
-            <button class="button" type="button">Сделать ставку</button>
-          </div>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="button" type="button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots__title">ЛОТЫ</h2>
@@ -120,7 +124,7 @@
           >
         </div>
         <article class="about__column">
-          <h4 class="about__title">Об аукционе</h4>
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
